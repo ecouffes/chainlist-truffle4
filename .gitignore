@@ -18,3 +18,4 @@ npm-debug.log*
 
 # Memo
 test/PromiseTest.js
+src/js/console.js

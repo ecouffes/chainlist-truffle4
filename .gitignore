@@ -1,0 +1,20 @@
+# Truffle
+build
+
+# Node
+node_modules
+package-lock.json
+
+# Mac specific
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Project
+.idea
+
+# Memo
+test/PromiseTest.js

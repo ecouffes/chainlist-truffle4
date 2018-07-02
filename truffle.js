@@ -32,7 +32,7 @@ module.exports = {
                 return new HDWalletProvider(
                     mnemonic,
                     "https://rinkeby.infura.io/" + accessToken,
-                    0  // index of metamask
+                    3  // index of metamask
                 );
             },
             // host: "localhost",

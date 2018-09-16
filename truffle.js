@@ -2,6 +2,7 @@ const HDWalletProvider = require('truffle-hdwallet-provider');
 const mnemonic = process.env.MNEMONIC;
 const accessToken = process.env.INFURA_ACCESS_TOKEN;
 
+
 module.exports = {
     // See <http://truffleframework.com/docs/advanced/configuration>
     // to customize your Truffle configuration!
@@ -35,8 +36,6 @@ module.exports = {
                     3  // index of metamask
                 );
             },
-            // host: "localhost",
-            // port: 8545,
             network_id: 4,    // rinkby test network
             gas: 4700000
         },

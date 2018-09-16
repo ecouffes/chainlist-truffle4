@@ -181,7 +181,7 @@ contract('ChainList', accounts => { // accounts == web3.eth.accounts
 
 
     /**
-     * Event Emitterびindexedがログをフィルタリングしているかテスト
+     * Event Emitterおよびindexedがログをフィルタリングしているかテスト
      *
      * @return promise
      */
@@ -195,7 +195,7 @@ contract('ChainList', accounts => { // accounts == web3.eth.accounts
         // param2: range(ログ収集範囲）
         const events = await instance.LogSellArticle({_seller: accounts[0]}, {fromBlock: 0, toBlock: 'latest'})
             .watch((error, event) => {
-                // console.dir(event);
+                console.dir(event);
             });
 
         // LogSellArticleを 4回発生させる
